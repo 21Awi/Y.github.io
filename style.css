@@ -27,6 +27,7 @@ body{
 #left,#right{
 height: 180vh;
 width: 27vw;
+min-width: 670.13px;
 background-color: rgb(0, 0, 0);
 }
 #beetwen{
@@ -34,7 +35,7 @@ background-color: rgb(0, 0, 0);
     width: 46vw;
     background-color: rgb(0, 0, 0);
     overflow-y: scroll;
-
+    min-width: 1158.74px;
 }
 #top_beetwen{
     height: 50px;
@@ -55,54 +56,43 @@ display: flex;
 height: 180vh;
 }
 .profile{
-    position: absolute;
-    right: 76.9%;
-    height: 4vh;
-    width: 2vw;
-    top: 10px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 50%;
-    overflow: hidden;
-    box-shadow: inset 0px 26px #E7E9EA;
+    position:  absolute;
+    left: 20.3%;
     display: flex;
-    pointer-events:auto; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.profile > img{
+    height: 86.45px;
+    width: 86.45px;
     cursor: pointer;
-    
-
+    min-width: 86.45px;
+    min-height: 86.45px;
 }
 #Profil{
-    position: absolute;
-    left: 23.5%;
-    color: #E7E9EA;
-    font-size: 1em;
-    font-family: "Source Code Pro", monospace;
-    top: 1.7%;
-}
-.div1{
-    width: 0.8vw;
-    height: 1.5vh;
-    background-color: rgb(0, 0, 0);
-    position: relative;
-    left: 16.6px;
-    top: 4px;
-    border-radius: 50%;
+  color: #E7E9EA;
+  font-size: 1em;
+  font-family: "Source Code Pro", monospace;
+  
+
 }
 .Options{
     position: absolute;
     left: 21%;
-    height: 4vh;
-    width: 2vw;
+    height: 53.2px;
+    width: 50.38px;
     display: flex;
     flex-direction: column;
-    gap: 3px;
-    top: 50px;
+    gap: 4px;
+    top: 4.5%;
     color: #E7E9EA;
     font-family: "Source Code Pro", monospace;
     cursor: pointer;
 }
 .option_class{
     height: 8px;
-    width: 3.2rem;
+    width: 51.2px;
     background-color: #E7E9EA;
     border-radius: 10px 10px 10px 10px;
 }
